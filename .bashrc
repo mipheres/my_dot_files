@@ -107,6 +107,7 @@ alias cdp='cd ~/projects/smtp/smtp.project'
 alias v='vim'
 
 # git
+alias ga='git add'
 alias gl='git pull'
 alias gp='git push'
 alias gpom='git push origin master'
