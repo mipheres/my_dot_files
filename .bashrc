@@ -106,7 +106,14 @@ alias findf='find . -iname'
 alias cdp='cd ~/projects/smtp/smtp.project'
 alias v='vim'
 
-# git
+# cd
+alias ..='cd ..'
+# ls
+alias ls="ls -F"
+alias l="ls -lAh"
+alias ll="ls -l"
+alias la='ls -A'
+## git
 alias ga='git add'
 alias gl='git pull'
 alias gp='git push'
@@ -119,4 +126,9 @@ alias gb='git branch'
 alias gs='git status'
 alias grm="git status | grep deleted | awk '{print \$3}' | xargs git rm"
 alias pull='git pull origin master'
+#variables
+DROP="/c/Documents and Settings/y/My Documents/My Dropbox/git"
+#usage cd "$DROP"
+export DROP
+
 
